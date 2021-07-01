@@ -1,0 +1,299 @@
+body {
+    margin: 0;
+    overflow-x: hidden !important;
+    font-family: "Montserrat", sans-serif !important;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* header section start */
+
+.top-bar {
+    background: black;
+    padding: 18px 0;
+}
+
+.top-bar .logo a {
+    color: white;
+    font-size: 22px;
+    padding-top: 3px;
+    text-decoration: none;
+}
+
+.top-bar .logo a:hover {
+    color: orange;
+}
+
+.top-bar .links {
+    float: right;
+}
+
+.top-bar .links ul {
+    display: flex;
+    list-style: none;
+    margin-bottom: 0px;
+}
+
+.top-bar .links ul li {
+    padding: 0 10px;
+}
+
+.top-bar .links ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 21px;
+}
+
+.top-bar .links ul li a:hover {
+    color: orange;
+}
+
+/* header section end */
+
+/* homepage section start */
+
+.film-cards .films {
+    padding-top: 28px;
+}
+
+.film-cards .films .heading h5 {
+    color: black;
+    font-weight: 600;
+    font-size: 24px;
+    padding-bottom: 20px;
+}
+
+.film-cards .films .card img{
+    width: 100%;
+    height: 255px;
+    object-fit: revert;
+    object-position: center;
+}
+
+.film-cards .films .card-inner {
+    padding: 20px 13px;
+}
+
+.film-cards .films .card-inner .title {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 3px;
+}
+
+.film-cards .films .card-inner .title h5 {
+    font-size: 18px;
+    color: black;
+}
+
+.film-cards .films .card-inner .title h4 {
+    color: orange;
+    font-size: 20px;
+    font-weight: 600;
+    position: relative;
+    bottom: 6px;
+}
+
+.film-cards .films .card-inner .sub-content {
+    display: flex;
+    padding-bottom: 25px;
+}
+
+.film-cards .films .card-inner .sub-content p {
+    font-size: 14px;
+    color: #adb5bd;
+}
+
+.film-cards .films .card-inner .buy-btn {
+    text-align: center;
+}
+
+.film-cards .films .card-inner .buy-btn a {
+    border: 1px solid black;
+    background: black;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    border-radius: 20px;
+    padding: 6px 18px;
+}
+
+.film-cards .films .card-inner .buy-btn a:hover {
+    background-color: orange;
+    border: 1px solid orange;
+}
+
+/* homepage section end */
+
+/* contact us section start */
+
+.contact-us {
+    margin-top: 5%;
+    padding: 50px 0 35px 0;
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: soft-light;
+    background-color: #000000b0;
+}
+
+.contact-us .heading {
+    padding-bottom: 35px;
+    text-align: center;
+}
+
+.contact-us .heading h3 {
+    color: white;
+    font-weight: 600;
+    font-size: 28px;
+    padding-bottom: 22px;
+}
+
+.contact-us .submit-btn {
+    text-align: center;
+}
+
+.contact-us .submit-btn a {
+    border: 1px solid black;
+    background: black;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 20px;
+    padding: 8px 25px;
+}
+
+.contact-us .submit-btn a:hover {
+    background-color: orange;
+    border: 1px solid orange;
+}
+
+.contact-us .form-group label {
+    color: white !important;
+}
+
+/* contact us section end */
+
+/* ticket booking section start */
+
+.ticket-booking .card {
+    margin-top: 18px;
+}
+
+.ticket-booking .card .card-inner {
+    padding: 15px;
+}
+
+.ticket-booking .card .card-inner .film-details .movie-img img {
+    width: 70px;
+    height: auto;
+    border-radius: 7px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.ticket-booking .card .card-inner .film-details .movie-name p {
+    font-size: 18px;
+    color: black;
+}
+
+.ticket-booking .card .card-inner .film-details .movie-name p.type {
+    font-size: 14px;
+    color: black;
+}
+
+.ticket-booking .card .card-inner .film-details .price h6 {
+    font-size: 28px;
+    color: orange;
+    font-weight: 600;
+    float: right;
+}
+
+.ticket-booking .card .card-inner .done-btn {
+    margin-top: 14px;
+    text-align: center;
+}
+
+.ticket-booking .card .card-inner .done-btn a {
+    border: 1px solid black;
+    background: black;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    border-radius: 20px;
+    padding: 6px 18px;
+}
+
+.ticket-booking .card .card-inner .done-btn a:hover {
+    background-color: orange;
+    border: 1px solid orange;
+}
+
+/* ticket booking section end */
+
+/* ticket reciept section start */
+
+.ticket-reciept .card {
+    margin-top: 20px;
+}
+
+.ticket-reciept .card .card-inner {
+    padding: 15px;
+}
+
+.ticket-reciept .card .card-inner .film-details .movie-img img {
+    width: 70px;
+    height: auto;
+    border-radius: 7px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.ticket-reciept .card .card-inner .film-details .movie-name p {
+    font-size: 18px;
+    color: black;
+}
+
+.ticket-reciept .card .card-inner .film-details .movie-name p.type {
+    font-size: 14px;
+    color: black;
+}
+
+.ticket-reciept .card .card-inner .film-details .price h6 {
+    font-size: 28px;
+    color: orange;
+    font-weight: 600;
+    float: right;
+}
+
+.ticket-reciept .card .card-inner .film-details .note-text {
+    padding-top: 15px;
+}
+
+.ticket-reciept .card .card-inner .film-details .note-text h6 {
+    color: red;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.ticket-reciept .card .card-inner .user-details {
+    padding-top: 30px;
+}
+
+.ticket-reciept .card .card-inner .user-details p strong {
+    font-size: 16px;
+    color: black;
+}
+
+.ticket-reciept .card .card-inner .user-details p span {
+    font-size: 15px;
+}
+
+/* ticket reciept section end */
